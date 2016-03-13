@@ -1,4 +1,16 @@
 @charset "UTF-8";
+h2, h3, h4 {
+  text-transform: uppercase; }
+
+a {
+  transition: 0.2s liner all; }
+
+.home h2 {
+  font-size: 4rem; }
+
+.home .callout {
+  color: #333333; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.2.0
@@ -377,10 +389,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.5;
   color: #fefefe;
-  background: #0a0a0a;
+  background: #2A8fBD;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1198,7 +1210,7 @@ i {
 
 strong,
 b {
-  font-weight: bold;
+  font-weight: 900;
   line-height: inherit; }
 
 small {
@@ -1212,7 +1224,7 @@ h4,
 h5,
 h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 900;
   font-style: normal;
   color: inherit;
   text-rendering: optimizeLegibility;
@@ -1305,7 +1317,7 @@ dl {
   margin-bottom: 1rem; }
   dl dt {
     margin-bottom: 0.3rem;
-    font-weight: bold; }
+    font-weight: 900; }
 
 blockquote {
   margin: 0 0 1rem;
@@ -1329,7 +1341,7 @@ abbr {
 
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
+  font-weight: 500;
   color: #0a0a0a;
   background-color: #e6e6e6;
   border: 1px solid #cacaca;
@@ -1345,7 +1357,7 @@ kbd {
 .subheader {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.4;
   color: #8a8a8a; }
 
@@ -1539,7 +1551,7 @@ label {
   display: block;
   margin: 0;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.8;
   color: #0a0a0a; }
   label.middle {
@@ -1612,7 +1624,7 @@ legend {
   padding: 1.25rem;
   margin: 1.125rem 0; }
   .fieldset legend {
-    background: #0a0a0a;
+    background: #2A8fBD;
     padding: 0 0.1875rem;
     margin: 0;
     margin-left: -0.1875rem; }
@@ -1658,7 +1670,7 @@ select {
   margin-top: -0.5rem;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 900;
   color: #ec5840; }
   .form-error.is-visible {
     display: block; }
@@ -1915,7 +1927,7 @@ select {
     font-size: 0.9rem;
     float: left; }
     .button-group .button:not(:last-child) {
-      border-right: 1px solid #0a0a0a; }
+      border-right: 1px solid #2A8fBD; }
   .button-group.tiny .button {
     font-size: 0.6rem; }
   .button-group.small .button {
@@ -2234,7 +2246,7 @@ select {
   margin-right: 0.75rem; }
 
 .dropdown-pane {
-  background-color: #0a0a0a;
+  background-color: #2A8fBD;
   border: 1px solid #cacaca;
   border-radius: 0;
   display: block;
@@ -2590,7 +2602,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #0a0a0a;
+  background: #2A8fBD;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-backface-visibility: hidden;
@@ -3124,7 +3136,7 @@ table {
     border: 1px solid #f1f1f1;
     background-color: #fefefe; }
   table caption {
-    font-weight: bold;
+    font-weight: 900;
     padding: 0.5rem 0.625rem 0.625rem; }
   table thead,
   table tfoot {
@@ -3138,7 +3150,7 @@ table {
     table tfoot th,
     table tfoot td {
       padding: 0.5rem 0.625rem 0.625rem;
-      font-weight: bold;
+      font-weight: 900;
       text-align: left; }
   table tbody tr:nth-child(even) {
     background-color: #f1f1f1; }
@@ -3302,7 +3314,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .has-tip {
   border-bottom: dotted 1px #8a8a8a;
-  font-weight: bold;
+  font-weight: 900;
   position: relative;
   display: inline-block;
   cursor: help; }
