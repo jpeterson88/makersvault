@@ -379,8 +379,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
-  background: #fefefe;
+  color: #fefefe;
+  background: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1323,7 +1323,7 @@ cite {
     content: '\2014 \0020'; }
 
 abbr {
-  color: #0a0a0a;
+  color: #fefefe;
   cursor: help;
   border-bottom: 1px dotted #0a0a0a; }
 
@@ -1612,7 +1612,7 @@ legend {
   padding: 1.25rem;
   margin: 1.125rem 0; }
   .fieldset legend {
-    background: #fefefe;
+    background: #0a0a0a;
     padding: 0 0.1875rem;
     margin: 0;
     margin-left: -0.1875rem; }
@@ -1915,7 +1915,7 @@ select {
     font-size: 0.9rem;
     float: left; }
     .button-group .button:not(:last-child) {
-      border-right: 1px solid #fefefe; }
+      border-right: 1px solid #0a0a0a; }
   .button-group.tiny .button {
     font-size: 0.6rem; }
   .button-group.small .button {
@@ -2003,7 +2003,7 @@ select {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   position: relative;
-  color: #0a0a0a;
+  color: #fefefe;
   background-color: white; }
   .callout > :first-child {
     margin-top: 0; }
@@ -2234,7 +2234,7 @@ select {
   margin-right: 0.75rem; }
 
 .dropdown-pane {
-  background-color: #fefefe;
+  background-color: #0a0a0a;
   border: 1px solid #cacaca;
   border-radius: 0;
   display: block;
@@ -2590,7 +2590,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #fefefe;
+  background: #0a0a0a;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-backface-visibility: hidden;
@@ -3129,7 +3129,7 @@ table {
   table thead,
   table tfoot {
     background: #f8f8f8;
-    color: #0a0a0a; }
+    color: #fefefe; }
     table thead tr,
     table tfoot tr {
       background: transparent; }
