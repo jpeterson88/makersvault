@@ -1,0 +1,10 @@
+Product
+  -create
+  -buy
+  -download
+
+Users
+  -create
+
+Seller
+  -Seller role
