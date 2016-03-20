@@ -1,12 +1,8 @@
 <?php
-
 namespace MakersVault\Http\Controllers;
-
 use Illuminate\Http\Request;
-
 use MakersVault\Http\Requests;
 use MakersVault\Product;
-
 class ProductController extends Controller
 {
     /**
@@ -18,7 +14,6 @@ class ProductController extends Controller
     {
         //
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -28,7 +23,6 @@ class ProductController extends Controller
     {
         return view('product.create');
     }
-
     /**
      * Store a newly created resource in storage.
      *
@@ -38,14 +32,12 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $product = Product::create([
-                  'name' => $request->name,
-                  'description' => $request->description,
-                ]);
-
-                //dd($product);
+            'name' => $request->name,
+            'description' => $request->description,
+        ]);
+        //dd($product);
         return redirect('product/'.$product->id);
     }
-
     /**
      * Display the specified resource.
      *
@@ -55,10 +47,8 @@ class ProductController extends Controller
     public function show($id)
     {
         $product = Product::find($id);
-
         return view('product.show', compact('product'));
     }
-
     /**
      * Show the form for editing the specified resource.
      *
@@ -69,7 +59,6 @@ class ProductController extends Controller
     {
         //
     }
-
     /**
      * Update the specified resource in storage.
      *
@@ -81,7 +70,6 @@ class ProductController extends Controller
     {
         //
     }
-
     /**
      * Remove the specified resource from storage.
      *

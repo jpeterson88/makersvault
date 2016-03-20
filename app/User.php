@@ -1,9 +1,6 @@
 <?php
-
 namespace MakersVault;
-
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
 class User extends Authenticatable
 {
     /**
@@ -12,9 +9,8 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'first_name', 'last_name', 'email', 'password',
     ];
-
     /**
      * The attributes excluded from the model's JSON form.
      *
@@ -23,4 +19,8 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function products(){
+      return $this->belongsToMany('MakersVault\Product');
+    }
 }
